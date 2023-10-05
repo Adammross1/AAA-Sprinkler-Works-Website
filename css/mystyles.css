@@ -1,0 +1,94 @@
+.imgwinter {
+    width: 800 px;
+    height: 500 px;
+}
+
+.imgtimer {
+    width: 1000 px;
+    height: 1000 px;
+}
+
+.collage {
+    width: 500px;
+    height: 500px;
+}
+
+.border {
+    border: 5px;
+    padding: 10px;
+    color:#bec1c2
+}
+
+
+.box-body {
+    margin: 0px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(10, 10, 10);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+  }
+
+.box:before{
+    content:"";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #00acee;
+    left:50%;
+    transform: translateX(-50%);
+    border-radius: 40%;
+    animation: fill 7s ease-in-out infinite;
+    z-index: -1;
+}
+@keyframes fill {
+    from {
+        top: 250px;
+        transform: translate(-50%) rotate(0deg);
+    }
+    to {
+        top: -50px;
+        transform: translate(-50%) rotate(360deg);
+    }
+}
+
+
+.photo-gallery {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px
+}
+
+.dream {
+    width: 800px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px
+}
