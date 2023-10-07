@@ -8400,8 +8400,8 @@ fieldset:disabled .btn {
 
 .text-white-p {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
-  border: 5px green;
+  color: #444 !important;
+  padding: 3rem;
 }
 
 .text-reset {
